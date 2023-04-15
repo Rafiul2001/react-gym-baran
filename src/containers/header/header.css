@@ -1,3 +1,17 @@
-#header{
+#header {
     width: 100%;
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 34% 0%, rgba(238, 210, 255, 1) 0%, rgba(255, 255, 255, 1) 84%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 34% 0%, rgba(238, 210, 255, 1) 0%, rgba(255, 255, 255, 1) 84%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 34% 0%, rgba(238, 210, 255, 1) 0%, rgba(255, 255, 255, 1) 84%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 34% 0%, rgba(238, 210, 255, 1) 0%, rgba(255, 255, 255, 1) 84%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 34% 0%, rgba(238, 210, 255, 1) 0%, rgba(255, 255, 255, 1) 84%);
 }
