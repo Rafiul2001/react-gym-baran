@@ -1,9 +1,14 @@
 import React from 'react'
 import './main.css'
+import { Details, ProgramsThatCanBeTaken, Testimonials } from '../../components/index'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div className='main'>
+      <Details />
+      <ProgramsThatCanBeTaken />
+      <Testimonials />
+    </div>
   )
 }
 

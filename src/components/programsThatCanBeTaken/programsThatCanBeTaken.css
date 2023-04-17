@@ -1,0 +1,42 @@
+.programs-that-can-be-taken {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.programs-that-can-be-taken h1 {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 73px;
+    text-align: center;
+    color: #262524;
+}
+
+.programs-contents{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 78px;
+    row-gap: 78px;
+}
+
+.program-content{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    min-width: 350px;
+    max-width: 33%;
+}
+
+.program-content-image-container{
+    width: 80px;
+}
+
+.program-content-image-container img{
+    width: 100%;
+}
