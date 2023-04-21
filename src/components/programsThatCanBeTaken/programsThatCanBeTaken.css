@@ -40,3 +40,13 @@
 .program-content-image-container img{
     width: 100%;
 }
+
+@media screen and (max-width:406px) {
+    .program-content{
+        min-width: 100%;
+    }
+    .programs-that-can-be-taken h1{
+        font-size: 32px;
+        line-height: 1.4;
+    }
+}

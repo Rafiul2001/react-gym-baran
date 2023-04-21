@@ -99,3 +99,26 @@
     color: #F0F6FF;
     opacity: 1;
 }
+
+@media screen and (max-width:870px) {
+    .footer{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .footer-info{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-links{
+        justify-content: center;
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .footer-links{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
